@@ -14,4 +14,5 @@ def count_th(word):
         return 0 
 
     # Here is where the recursive call is made after finding the first instance of the substring and goes to the end of the input.
+    
     return 1 + count_th(word[j + 1:]) 
